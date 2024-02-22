@@ -3,6 +3,28 @@
 
     Started
 
-    branch ko delete ka code   ---  git branch -d [branch name]
+    branch ko delete ka code   --->  git branch -d [branch name]
 
-    
+    git pull se pehle ka code ko revert karne k liye    --> git merge --abort ***
+
+    git me merge karte waqt agar conflict aata hai to sare jagah apna code ko accept current  --> git checkout --ours ./file name
+    git me merge karte waqt agar conflict aata hai to sare jagah apna code ko accept current  --> git checkout --theirs ./file name
+
+    all commits ki id ko one line me shoe kar dega                                            --> git log --oneline 
+
+                                                         <!-- gitignore -->
+
+its means iske anadar jo bhi file aur folder hoga wo use track nahi karega vo chahe file ho ya folder ho ya log file ho 
+folder/
+file name 
+*.log
+
+
+                                                       
+
+
+
+                                            
+
+
+
